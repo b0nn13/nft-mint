@@ -1,7 +1,7 @@
 async function init() {
+    const MY_CONTRACT = "0x582baABf1FC37D00dfDBA58Aa4fbD8cA1eD2B71e";
     if (window.ethereum == null) {
 
-        const MY_CONTRACT = "0x582baABf1FC37D00dfDBA58Aa4fbD8cA1eD2B71e";
 
         console.log("MetaMask not installed; using read-only defaults");
         provider = new ethers.InfuraProvider("sepolia");

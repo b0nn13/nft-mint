@@ -1,0 +1,14 @@
+{
+    "description": "Ativo #2 NFT", 
+    "external_url": "https://desciclopedia.org/wiki/Cachorro_caramelo", 
+    "image": "https://images.uncyc.org/pt/thumb/8/8c/Cachorro_caramelo.jpg/250px-Cachorro_caramelo.jpg", 
+    "name": "DEVX NFT",
+    "attributes": [{
+        "trait_type": "UTX", 
+        "value": "false"
+      }, 
+      {
+        "trait_type": "Gato", 
+        "value": "sim"
+      }]
+  }

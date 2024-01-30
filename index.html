@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mintar NFT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-secondary-subtle">
+    <header>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1" id="navAddress">Conecte-se com o Metamask</span>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid justify-content-center d-flex mt-5 pt-5" id="mainDiv">
+        
+        <form action="" name="formMint" id="formMint" method="get">
+            <div class="bg-dark rounded-5 p-5 mt-5">
+            <h3 class="text-light text-bold my-3">Mintar NFT</h3>
+            <div class="mb-3">
+                <label for="inputAddress" class="form-label text-light">Endereço Destinatário</label>
+                <input type="text" class="form-control" id="inputAddress" name="inputAddress" placeholder="<0x...>" required disabled>
+              </div>
+            <div class="mb-3">
+              <label for="inputMetadados" class="form-label text-light">URL Metadados</label>
+              <input type="text" class="form-control" placeholder="json" id="inputMetadados" name="inputMetadados" aria-describedby="inputMetadados" required disabled>
+            </div>
+            <button type="submit" id="btnSubmit" class="btn btn-outline-primary mt-3" disabled>Mintar</button>
+            <p class="text-danger mt-2" id="txtWarning">Usuário conectado não tem autorização para mintar.</p>
+        </div>  
+        </form>
+
+        <div id="divImg" class="rounded-5 mx-5 bg-dark p-5 mt-5 justify-content-center">
+            <h4 class="text-break text-center text-light" id="nftNome"></h2>
+            <img src="" id="imgNFT" class="rounded-5 m-auto">
+            <p class="text-break text-center text-light mt-3" id="nftDesc"></p>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.6.1/ethers.umd.min.js"></script>
+    <script src="nft.abi.js"></script>
+    <script src="util.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

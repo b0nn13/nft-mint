@@ -1,0 +1,10 @@
+#divImg{
+    display: none;
+} 
+#imgNFT{
+    object-fit: cover;
+    height: 10vw;
+}
+#imgNFT, #nomeNFT, #nftDesc{
+    width: 10vw;
+}

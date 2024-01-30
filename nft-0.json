@@ -1,0 +1,14 @@
+{
+    "description": "Ativo #1 NFT", 
+    "external_url": "https://en.wikipedia.org/wiki/Levi", 
+    "image": "https://media.istockphoto.com/id/1256670045/pt/foto/aurora-borealis-beyond-the-arctic-circle-in-winter-lapland.jpg?s=1024x1024&w=is&k=20&c=S9yQlL8MBHROdMyyXVIp5bz6hizh89M0bF5_XrDHSfg=", 
+    "name": "DEVX NFT",
+    "attributes": [{
+        "trait_type": "UTX", 
+        "value": "false"
+      }, 
+      {
+        "trait_type": "Gato", 
+        "value": "sim"
+      }]
+  }
